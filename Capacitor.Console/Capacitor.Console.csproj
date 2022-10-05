@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CalcCapacitor.Lib\CalcCapacitor.Lib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="ValueService.Lib">
+        <HintPath>..\..\..\Downloads\ValueService-master 2\ValueService.Lib\bin\Release\net6.0\ValueService.Lib.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
