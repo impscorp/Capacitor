@@ -13,7 +13,7 @@
 
     <ItemGroup>
       <Reference Include="ValueService.Lib">
-        <HintPath>..\..\..\Downloads\ValueService-master 2\ValueService.Lib\bin\Release\net6.0\ValueService.Lib.dll</HintPath>
+        <HintPath>..\..\impscorp\ValueService\ValueService.Lib\bin\Release\net6.0\ValueService.Lib.dll</HintPath>
       </Reference>
     </ItemGroup>
 

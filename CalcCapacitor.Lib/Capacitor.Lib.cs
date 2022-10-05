@@ -1,5 +1,4 @@
-﻿
-namespace CalcCapacitor.Lib;
+﻿namespace CalcCapacitor.Lib;
 
 public class Capacitor
 {

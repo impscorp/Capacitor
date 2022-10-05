@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcCapacitor.Lib", "CalcCapacitor.Lib\CalcCapacitor.Lib.csproj", "{DE7482B8-62FF-457F-9B46-759802F4B98D}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcCapacitor.Lib", "CalcCapacitor.Lib\CalcCapacitor.Lib.csproj", "{DE7482B8-62FF-457F-9B46-759802F4B98D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capacitor.Console", "Capacitor.Console\Capacitor.Console.csproj", "{9D5B88D7-34DA-4A6F-92C6-36DBE4FB23E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capacitor.Console", "Capacitor.Console\Capacitor.Console.csproj", "{9D5B88D7-34DA-4A6F-92C6-36DBE4FB23E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcCapacitor.Tests", "CalcCapacitor.Tests\CalcCapacitor.Tests.csproj", "{F4261EB5-E3C1-4490-896D-3C6BE2821219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcCapacitor.Tests", "CalcCapacitor.Tests\CalcCapacitor.Tests.csproj", "{F4261EB5-E3C1-4490-896D-3C6BE2821219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapacitatorUI", "CapacitatorUI\CapacitatorUI.csproj", "{CCC3F6C8-BD31-4098-B27C-3800E402A96E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,15 @@ Global
 		{F4261EB5-E3C1-4490-896D-3C6BE2821219}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4261EB5-E3C1-4490-896D-3C6BE2821219}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4261EB5-E3C1-4490-896D-3C6BE2821219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC3F6C8-BD31-4098-B27C-3800E402A96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC3F6C8-BD31-4098-B27C-3800E402A96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC3F6C8-BD31-4098-B27C-3800E402A96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC3F6C8-BD31-4098-B27C-3800E402A96E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45E5B7DA-6A4A-451F-A07F-125A6A85C6B4}
 	EndGlobalSection
 EndGlobal
